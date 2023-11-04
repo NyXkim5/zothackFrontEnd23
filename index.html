@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #2f52ea;
+            /* Navy blue */
+            color: white;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 40px;
+        }
+
+        .header-logo {
+
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo img {
+            /* Assuming we have a logo image, you'd define its size here */
+            height: 50px;
+            /* or whatever size fits your needs */
+        }
+
+        .header-logo span {
+            margin-left: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            padding: 0 15px;
+        }
+
+        .nav-links li a {
+            color: rgb(21, 64, 174);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-links li a:hover {
+            text-decoration: underline;
+        }
+
+        .login-button {
+            background-color: #FFFFFF;
+            border: none;
+            border-radius: 30px;
+            padding: 20px 30px;
+            cursor: pointer;
+            color: #000080;
+            /* Navy blue */
+            font-weight: bold;
+        }
+
+        /* Here we use a simple selector for the cart icon,
+           but in a real project, you might have a class or ID for styling it */
+        .login-button img {
+            /* Define the size of your shopping cart icon */
+            width: 24px;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="zotlogo.jpg" alt="Logo">
+            <span>ZOT N Munch</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="button-17">The Team</a></li>
+            <li><a href="#" class="button-17">About</a></li>
+            <li><a href="#" class="button-17">Contact</a></li>
+        </ul>
+
+    </div>
+
+    <div style="display: grid; grid-template-columns: .5fr 4fr 3fr 2fr; grid-template-rows: 30vh 50vh;">
+        <div></div> 
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Comic Sans Text Example</title>
+            <style>
+                .comic-text {
+                    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans MS font */
+                    font-size: 48px; /* Large text */
+                    color: #000; /* Default text color */
+                    text-align: left; /* Center the text */
+                    margin-top: 50px; /* Add some space at the top */
+                }
+            </style>
+        </head>
+        <body>
+        
+        <div class="comic-text">
+            Craving something? <br>Find your munch with <strong>ZOT N Munch!</strong>
+
+        </div>
+
+    
+        
+
+        </p>
+        
+        
+        <div></div>
+       
+
+
+        <div>
+            <div>
+            
+                <label for="fname">location:</label>
+                <input type="text" id="location" name="food_item_name"><br><br>
+
+                <label for="fname">image url</label>
+                <input type="text" id="imageurl" name="food_item_name"><br><br>
+                <button onclick="submit()">submit</button>  
+                
+                <label for="fname">food type</label>
+                <input type="text" id="food_type" name="food_item_name"><br><br>
+                <button onclick="getFoodTypes()">submit</button> 
+                <style>
+                
+               
+
+            
+            </div>
+            <div></div>
+        </div>
+        <div id="display"></div>
+
+        <div>
+            
+
+        </div>
+
+    </div>
+
+  
+
+</body>
+
+</html>
+
